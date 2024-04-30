@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/font.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+
+<body>
+    <header>
+        <div class="container">
+            <img src="assets/image/Logo.png" alt="#">
+            <nav>
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                <ul id="menu">
+                    <i class="fa-solid fa-xmark" onclick="toggleMenu()"></i>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Package <i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#">Destination <i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#">Blog <i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+            </nav>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+    <main>
+        <main>
+            <section id="hero">
+                <div class="container">
+                    <div class="hero-sec">
+                    <div class="make">
+                        <p class="your">Make in <br /> your journey.</p>
+                        <p class="journey">Explore the world with what you love beautiful <br /> natural beauty.</p>
+                    </div>
+                    <form action="" class="make-form">
+                        <select name="location" id="location">
+                            <option value="0">Location</option>
+                            <option value="goa">goa</option>
+                            <option value="maldivs">maldivs</option>
+                        </select>
+                        <select name="date" id="date">
+                            <option value="0">Date</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+
+                        </select>
+                        <select name="people" id="people">
+                            <option value="0">people</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+
+                        <input type="submit" class="common-btn" value="Explore Now">
+                    </form>
+                    <div class="place">
+                        <p>Popular Place : </p>
+                        <p>Bali, Istanbul, Rome, Paris.</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+            <section id="About">
+                <div class="container">
+                    <h2 class="main-titel">About US</h2>
+                    <p class="sub-titel">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        <br>
+                        incididunt ut labore et dolore magna aliqua.</p>
+
+                    <div class="row about-card">
+                        <div class="great col-12 col-md-6 col-lg-4">
+                            <img src="assets/image/Vector.png" alt="">
+                            <h3>Great team work</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempor nunc non neque
+                                euismod porttitor. Nullam lacus est, tincidunt eget sapien eget, maximus convallis
+                                massa.
+                                Curabitur quis tellus a tortor egestas viverra. </p>
+                        </div>
+                        <div class="great col-12 col-md-6 col-lg-4">
+                            <img src="./assets/image/img-2.png" alt="">
+                            <h3>Our vision</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam.. </p>
+                        </div>
+                        <div class="great col-12 col-md-6 col-lg-4">
+                            <img src="./assets/image/img-3.png" alt="">
+                            <h3>Our mision</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam.. </p>
+                        </div>
+                    </div>
+
+                    <div class="row about-gap">
+                        <div class="col-12 about-lic  col-md-12 col-sm-12 col-lg-6">
+                            <img src="./assets/image/foto-sushi-6anudmpILw4-unsplash.jpg" alt="">
+                        </div>
+                        <div class="col-12 about-founder  col-md-12 col-sm-12 col-lg-6">
+                            <img src="./assets/image/invertcoma.svg" alt="">
+                            <p class="p-about">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                                porttitor sapien et urna tincidunt fringilla. Vivamus at augue
+                                interdum, blandit arcu quis, laoreet ipsum. In eu ipsum urna.
+                                Suspendisse suscipit est et neque.
+                            </p>
+                            <p class="p-about">
+                                Mauris tempor tellus ante, ut fermentum erat gravida vel. Class
+                                aptent taciti sociosqu ad litora torquent per conubia nostra,
+                                per inceptos himenaeos. Aenean nec justo dui. Ut et consequat
+                                dui, a malesuada ipsum. Pellentesque nec turpis viverra, blandit
+                                mi a, accumsan justo.
+                            </p>
+                            <h5 class="h5-about">Siti Sarah</h5>
+                            <p class="p-about-1">Founder Travosca</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Packages">
+                <div class="container">
+                    <h2 class="main-titel">Packages</h2>
+                    <p class="sub-titel">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        <br>
+                        incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="titel row">
+                        <div class="popular col-lg-7 col-12">
+                            <h3>Popular Packages</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                        </div>
+                        <div class="col-lg-3 col-12 btn">
+                            <button class="common-btn" type="submit">Discover more</button>
+                        </div>
+                    </div>
+                    <div class="popular-location row">
+                        <div class="col-xl-4 col-lg-6 col-md-6">
+                            <div class="popular-1">
+                                <div class="Place">
+                                    <img src="./assets/image/Paris3.jpg" alt="paris-img">
+                                </div>
+                                <div class="location-data">
+                                    <div class="singapore">
+                                        <h4>Paris</h4>
+                                        <p>$299.00<span>/2days</span></p>
+                                    </div>
+                                    <div class="discription">
+                                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore
+                                            incididunt ut labore et dolore</p>
+                                    </div>
+                                    <div class="str-book">
+                                        <img src="./assets/image/satr.png" alt="rating">
+                                        <button class="common-btn">Booking now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-6 col-md-6">
+                            <div class="popular-1">
+                                <div class="Place">
+                                    <img src="./assets/image/swiss.jpg" alt="swiss-img">
+                                </div>
+                                <div class="location-data">
+                                    <div class="singapore">
+                                        <h4>Swiss</h4>
+                                        <p>$299.00<span>/3days</span></p>
+                                    </div>
+                                    <div class="discription">
+                                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore
+                                            incididunt ut labore et dolore</p>
+                                    </div>
+                                    <div class="str-book">
+                                        <img src="./assets/image/satr.png" alt="rating">
+                                        <button class="common-btn">Booking now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-6 col-md-6">
+                            <div class="popular-1">
+                                <div class="Place">
+                                    <img src="./assets/image/thailand.jpg" alt="paris-img">
+                                </div>
+                                <div class="location-data">
+                                    <div class="singapore">
+                                        <h4>Thailand</h4>
+                                        <p>$299.00<span>/3days</span></p>
+                                    </div>
+                                    <div class="discription">
+                                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore
+                                            incididunt ut labore et dolore</p>
+                                    </div>
+                                    <div class="str-book">
+                                        <img src="./assets/image/satr.png" alt="rating">
+                                        <button class="common-btn">Booking now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-6 col-md-6">
+                            <div class="popular-1">
+                                <div class="Place">
+                                    <img src="./assets/image/taiwan.jpg" alt="paris-img">
+                                </div>
+                                <div class="location-data">
+                                    <div class="singapore">
+                                        <h4>Taiwan</h4>
+                                        <p>$299.00<span>/3days</span></p>
+                                    </div>
+                                    <div class="discription">
+                                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore
+                                            incididunt ut labore et dolore</p>
+                                    </div>
+                                    <div class="str-book">
+                                        <img src="./assets/image/satr.png" alt="rating">
+                                        <button class="common-btn">Booking now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-6 col-md-6">
+                            <div class="popular-1">
+                                <div class="Place">
+                                    <img src="./assets/image/Indonesi.jpg" alt="paris-img">
+                                </div>
+                                <div class="location-data">
+                                    <div class="singapore">
+                                        <h4>Indonesi</h4>
+                                        <p>$299.00<span>/3days</span></p>
+                                    </div>
+                                    <div class="discription">
+                                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore
+                                            incididunt ut labore et dolore</p>
+                                    </div>
+                                    <div class="str-book">
+                                        <img src="./assets/image/satr.png" alt="rating">
+                                        <button class="common-btn">Booking now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-6 col-md-6">
+                            <div class="popular-1">
+                                <div class="Place">
+                                    <img src="./assets/image/Singapore.jpg" alt="paris-img">
+                                </div>
+                                <div class="location-data">
+                                    <div class="singapore">
+                                        <h4>Singapore</h4>
+                                        <p>$299.00<span>/3days</span></p>
+                                    </div>
+                                    <div class="discription">
+                                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod tempor
+                                            incididunt ut labore et dolore
+                                            incididunt ut labore et dolore</p>
+                                    </div>
+                                    <div class="str-book">
+                                        <img src="./assets/image/satr.png" alt="rating">
+                                        <button class="common-btn">Booking now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section id="Destination">
+                <div class="container">
+                    <h2 class="main-titel">Destination</h2>
+                    <p class="sub-titel">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        <br>
+                        incididunt ut labore et dolore magna aliqua.</p>
+                    <!-- Slider main container -->
+                    <div class="swiper dest-swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="dest-sild">
+                                    <img src="assets/image/swis.jpg" alt="">
+                                    <div class="sild-data">
+                                        <h4>Bali, Indonesia.</h4>
+                                        <p class="bali">Bali is a beautiful tourist spot and is visited by many
+                                            travelers.
+                                        </p>
+                                        <div class="crical">
+                                            <span>“</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dest-sild">
+                                    <img src="assets/image/indonesipak.jpg" alt="">
+                                    <div class="sild-data">
+                                        <h4>Bali, Indonesia.</h4>
+                                        <p class="bali">Bali is a beautiful tourist spot and is visited by many
+                                            travelers.
+                                        </p>
+                                        <div class="crical">
+                                            <span>“</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dest-sild">
+                                    <img src="assets/image/manail.jpg" alt="">
+                                    <div class="sild-data">
+                                        <h4>Bali, Indonesia.</h4>
+                                        <p class="bali">Bali is a beautiful tourist spot and is visited by many
+                                            travelers.
+                                        </p>
+                                        <div class="crical">
+                                            <span>“</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dest-sild">
+                                    <img src="assets/image/singaporeind.jpg" alt="">
+                                    <div class="sild-data">
+                                        <h4>Bali, Indonesia.</h4>
+                                        <p class="bali">Bali is a beautiful tourist spot and is visited by many
+                                            travelers.
+                                        </p>
+                                        <div class="crical">
+                                            <span>“</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dest-sild">
+                                    <img src="assets/image/surat.jpg" alt="">
+                                    <div class="sild-data">
+                                        <h4>Bali, Indonesia.</h4>
+                                        <p>Bali is a beautiful tourist spot and is visited by many travelers. </p>
+                                        <div class="crical">
+                                            <span>“</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dest-sild">
+                                    <img src="assets/image/whater.jpg" alt="">
+                                    <div class="sild-data">
+                                        <h4>Bali, Indonesia.</h4>
+                                        <p class="bali">Bali is a beautiful tourist spot and is visited by many
+                                            travelers.
+                                        </p>
+                                        <div class="crical">
+                                            <span>“</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                        <!-- If we need scrollbar
+                    <div class="swiper-scrollbar"></div> -->
+                    </div>
+                </div>
+            </section>
+
+            <section id="blog">
+                <div class="container">
+                    <h2 class="main-titel">
+                        Blog
+                    </h2>
+                    <p class="sub-titel">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br> incididunt
+                        ut labore et dolore magna aliqua.
+                    </p>
+                    <div class="row blog-data">
+                        <div class="col-xl-5">
+                            <div class="row left-blog">
+                                <div class="col-xl-12 col-lg-6 col-md-6 col-12 ">
+                                    <div class="blog-disc">
+                                        <span>Perfect | Tips</span>
+                                        <h4>9 Popular Travel Destintion on Sale in 2022
+                                            -</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna</p>
+
+                                        <a href="#" class="common-btn">Read More</a>
+                                    </div>
+
+                                </div>
+                                <div class="col-xl-12 col-lg-6 col-md-6 col-12 ">
+                                    <div class="blog-disc">
+                                        <span>Tips | Travel</span>
+                                        <h4>How Are We Going to Travel in 2022
+                                            <br> -
+                                        </h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna</p>
+                                        <a href="#" class="common-btn">Read More</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-xl-7 right-blog">
+                            <img src="./assets/image/photo-1509299349698-dd22323b5963.avif" alt="blog-img">
+                            <div class="blog-disc">
+                                <span>Stories | Tips</span>
+                                <h4>Travel Stories For Now and the Future</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna</p>
+                                <a href="#" class="common-btn">Read More</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="Contact">
+                <div class="container">
+                    <h2 class="main-titel">Contact</h2>
+                    <p class="sub-titel">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        <br>
+                        incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="row sum">
+                        <div class="col-xl-5 col-12 form-sumbit">
+                            <input type="text" placeholder="Your name">
+                            <input type="email" placeholder="Your email">
+                            <input type="text" placeholder="subject">
+                            <textarea name="" cols="15" rows="5" placeholder="Your massage"></textarea>
+                            <button class="common-btn">Send message</button>
+                        </div>
+                        <div class="col-xl-6 col-12 touch">
+                            <h3>Get In Touch</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna</p>
+
+
+                            <div class="row aceh">
+                                <div class="col-md-6 col-sm-12">
+                                    <h4>Lhoksemawe, Aceh</h4>
+                                    <div class="domain">
+                                        <a href="#"><i class="fa-solid fa-phone"></i>+62 6943 6956</a>
+                                        <a href="#"><i class="fa-solid fa-envelope"></i>
+                                            contact@domain.com</a>
+                                        <a href="#"><i class="fa-solid fa-location-dot"></i>Jl. Darussalam Hagu
+                                            selatan</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <h4>Lhoksemawe, Aceh</h4>
+                                    <div class="domain">
+                                        <a href="#"><i class="fa-solid fa-phone"></i>+62 6943 6956</a>
+                                        <a href="#"><i class="fa-solid fa-envelope"></i>
+                                            contact@domain.com</a>
+                                        <a href="#"><i class="fa-solid fa-location-dot"></i>Jl. Darussalam Hagu
+                                            selatan</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <h4>Lhoksemawe, Aceh</h4>
+                                    <div class="domain">
+                                        <a href="#"><i class="fa-solid fa-phone"></i>+62 6943 6956</a>
+                                        <a href="#"><i class="fa-solid fa-envelope"></i>
+                                            contact@domain.com</a>
+                                        <a href="#"><i class="fa-solid fa-location-dot"></i>Jl. Darussalam Hagu
+                                            selatan</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <h4>Lhoksemawe, Aceh</h4>
+                                    <div class="domain">
+                                        <a href="#"><i class="fa-solid fa-phone"></i>+62 6943 6956</a>
+                                        <a href="#"><i class="fa-solid fa-envelope"></i>
+                                            contact@domain.com</a>
+                                        <a href="#"><i class="fa-solid fa-location-dot"></i>Jl. Darussalam Hagu
+                                            selatan</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="Subcribe">
+                <div class="container">
+                    <h2 class="main-titel">Subcribe to get special price</h2>
+                    <p class="sub-titel get">Dont wanna miss something? subscribe right now and get special <br>
+                        promotion
+                        and monthly newsletter.</p>
+                    <div class="sub-email">
+                        <input type="text" placeholder="Type your email here">
+                        <button class="common-btn sub-btn">Subcribe</button>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer>
+            <div class="container">
+              <div class="row foot-k">
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12 col-xl-3 footing footer-1">
+                  <div class="footer-logo">
+                    <img src="./assets/image/travare.svg" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="291" height="51" viewBox="0 0 291 51" fill="none">
+                      <path d="M14.8488 12.3323H0.375977V3.56128H39.7886V12.3323H25.3158V50.0742H14.8488V12.3323Z"
+                        fill="black" />
+                      <path
+                        d="M53.5795 19.0434C54.7856 17.3158 56.4009 16.009 58.4253 15.1231C60.4929 14.2371 62.862 13.7941 65.5325 13.7941V23.3625C64.4126 23.2739 63.6588 23.2296 63.2712 23.2296C60.3852 23.2296 58.1238 24.0713 56.487 25.7546C54.8502 27.3936 54.0318 29.8743 54.0318 33.1966V50.0742H43.9525V14.3257H53.5795V19.0434Z"
+                        fill="black" />
+                      <path
+                        d="M85.357 13.7941C90.7412 13.7941 94.8763 15.1231 97.7623 17.7809C100.648 20.3945 102.091 24.3592 102.091 29.6749V50.0742H92.658V45.6222C90.7628 48.9446 87.2307 50.6057 82.0618 50.6057C79.3912 50.6057 77.0652 50.1406 75.0838 49.2104C73.1455 48.2801 71.6595 46.9955 70.6257 45.3564C69.5919 43.7174 69.075 41.8569 69.075 39.7749C69.075 36.4525 70.2811 33.839 72.6932 31.9341C75.1485 30.0293 78.9174 29.0769 84.0002 29.0769H92.0119C92.0119 26.8177 91.3443 25.0901 90.009 23.8941C88.6737 22.6537 86.6707 22.0335 84.0002 22.0335C82.148 22.0335 80.3173 22.3436 78.5082 22.9638C76.7422 23.5397 75.2346 24.337 73.9855 25.3559L70.3673 18.1132C72.2625 16.7399 74.5239 15.6768 77.1514 14.9237C79.822 14.1707 82.5572 13.7941 85.357 13.7941ZM84.5816 43.6288C86.3046 43.6288 87.8337 43.2301 89.169 42.4328C90.5043 41.5911 91.4519 40.3729 92.0119 38.7782V35.1236H85.0985C80.9634 35.1236 78.8959 36.519 78.8959 39.3098C78.8959 40.6387 79.3912 41.7019 80.3819 42.4992C81.4157 43.2523 82.8156 43.6288 84.5816 43.6288Z"
+                        fill="black" />
+                      <path
+                        d="M145.085 14.3257L130.418 50.0742H120.016L105.414 14.3257H115.816L125.443 38.6453L135.393 14.3257H145.085Z"
+                        fill="black" />
+                      <path
+                        d="M182.301 32.3328C182.301 32.4657 182.236 33.396 182.107 35.1236H155.811C156.284 37.3385 157.404 39.0883 159.17 40.3729C160.936 41.6576 163.133 42.2999 165.761 42.2999C167.57 42.2999 169.164 42.0341 170.542 41.5025C171.963 40.9266 173.277 40.0407 174.483 38.8446L179.846 44.8249C176.572 48.6788 171.791 50.6057 165.502 50.6057C161.583 50.6057 158.115 49.8305 155.1 48.2801C152.085 46.6854 149.759 44.4926 148.122 41.7019C146.485 38.9111 145.667 35.7438 145.667 32.1999C145.667 28.7004 146.464 25.5552 148.057 22.7645C149.694 19.9294 151.912 17.7366 154.712 16.1862C157.555 14.5915 160.721 13.7941 164.21 13.7941C167.613 13.7941 170.693 14.5472 173.449 16.0533C176.206 17.5594 178.36 19.73 179.911 22.5651C181.504 25.3559 182.301 28.6118 182.301 32.3328ZM164.275 21.6349C161.992 21.6349 160.075 22.2993 158.524 23.6283C156.974 24.9572 156.026 26.7734 155.681 29.0769H172.803C172.459 26.8177 171.511 25.0237 169.96 23.6947C168.41 22.3215 166.515 21.6349 164.275 21.6349Z"
+                        fill="black" />
+                      <path d="M189.012 0.770508H199.091V50.0742H189.012V0.770508Z" fill="black" />
+                      <path d="M208.445 0.770508H218.525V50.0742H208.445V0.770508Z" fill="black" />
+                      <path
+                        d="M261.929 32.3328C261.929 32.4657 261.864 33.396 261.735 35.1236H235.439C235.912 37.3385 237.032 39.0883 238.798 40.3729C240.564 41.6576 242.761 42.2999 245.389 42.2999C247.198 42.2999 248.791 42.0341 250.17 41.5025C251.591 40.9266 252.905 40.0407 254.111 38.8446L259.474 44.8249C256.2 48.6788 251.419 50.6057 245.13 50.6057C241.21 50.6057 237.743 49.8305 234.728 48.2801C231.713 46.6854 229.387 44.4926 227.75 41.7019C226.113 38.9111 225.295 35.7438 225.295 32.1999C225.295 28.7004 226.091 25.5552 227.685 22.7645C229.322 19.9294 231.54 17.7366 234.34 16.1862C237.183 14.5915 240.349 13.7941 243.838 13.7941C247.241 13.7941 250.321 14.5472 253.077 16.0533C255.834 17.5594 257.988 19.73 259.538 22.5651C261.132 25.3559 261.929 28.6118 261.929 32.3328ZM243.903 21.6349C241.62 21.6349 239.703 22.2993 238.152 23.6283C236.602 24.9572 235.654 26.7734 235.309 29.0769H252.431C252.087 26.8177 251.139 25.0237 249.588 23.6947C248.038 22.3215 246.142 21.6349 243.903 21.6349Z"
+                        fill="black" />
+                      <path
+                        d="M278.266 19.0434C279.473 17.3158 281.088 16.009 283.112 15.1231C285.18 14.2371 287.549 13.7941 290.219 13.7941V23.3625C289.1 23.2739 288.346 23.2296 287.958 23.2296C285.072 23.2296 282.811 24.0713 281.174 25.7546C279.537 27.3936 278.719 29.8743 278.719 33.1966V50.0742H268.639V14.3257H278.266V19.0434Z"
+                        fill="black" />
+                    </svg>
+                  </div>
+                  <p class="foot-p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+                    pharetra condimentum.
+                  </p>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12 col-xl-3 footing first-foot">
+                  <h5>Contact Information</h5>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="fa-solid fa-location-dot"></i> 732 Despard St,
+                        Atlanta</a>
+                    </li>
+                    <li>
+                      <a href="#"> <i class="fa-solid fa-phone"></i> +97 888 8888</a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-solid fa-envelope"></i> info@traveller.com</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12 col-xl-3 footing second-foot">
+                  <h5>Quick Link</h5>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Tours</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12 col-xl-3 footing third-foot">
+                  <h5>Follow Us</h5>
+                  <div class="social-img">
+                    <i class="fa-brands fa-facebook fa-2xl"></i>
+                    <i class="fa-brands fa-twitter fa-2xl"></i>
+                    <i class="fa-brands fa-youtube fa-2xl"></i>
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="copyright">
+              <p>Copyright © 2021 UNQ Design</p>
+            </div>
+          </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+
+        <script>
+            function toggleMenu() {
+                document.getElementById("menu").classList.toggle('showHide')
+            }
+        </script>
+</body>
+
+</html>
